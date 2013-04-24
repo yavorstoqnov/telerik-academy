@@ -1,0 +1,129 @@
+ html, body, nav, ul, li, a, section, span, p, h2, div, img
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font: 14px Arial, Verdana sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+img
+{
+	border: none;	
+}
+
+ul
+{
+	list-style: none;
+} 
+
+#wraper
+{
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#main-content
+{
+	width: 340px;
+	height: 680px;
+	color: #fff;
+	background: #3e3e3e;
+	float: left;
+}
+
+#main-content h2
+{
+	margin: 84px 22px 44px 22px;
+	padding: 30px 44px;
+	font-weight: bold;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+} 
+
+#main-content ul li 
+{
+	padding : 5px;
+	text-align: center;
+} 
+
+#main-content ul li a
+{
+	color: #fff;
+	font-size: 13px;
+} 
+
+#right-content
+{
+	width: 680px;
+	float: left;
+}
+
+img
+{
+	float: left;
+}
+
+footer
+{
+	height: 52px;
+	background: #000;
+}
+
+footer #left-section
+{
+	margin : 4px;
+	float: left;
+}
+
+footer #right-section
+{
+	margin : 4px;
+	float: right;
+}
+
+footer li
+{
+	margin: 14px 4px;
+	float: left;
+}
+
+footer li a
+{
+	color: #fff;
+	font-size: 10px;
+	padding: 6px 14px 6px 18px;
+}
+
+footer li span
+{
+	color: #fff;
+	font-size: 10px;
+	padding: 6px 14px 6px 18px;
+}
+
+footer .middle-link
+{
+	border-left: 2px solid #847d76;
+	border-right: 2px solid #847d76;
+}
+
+.clear:after
+{
+	content: "";
+	display: block;
+	clear: both;
+}
